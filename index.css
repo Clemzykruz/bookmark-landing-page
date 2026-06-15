@@ -452,12 +452,13 @@ details[open] {
   display: flex;
   width: max-content;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
   margin-inline: auto;
   position: relative;
 }
 .news-letter__error-message {
   width: 100%;
+  padding: 2px;
   position: absolute;
   top: 3rem;
   left: 0rem;
@@ -465,8 +466,7 @@ details[open] {
   color: white;
   text-align: left;
   font-style: italic;
-  font-size: 0.8rem;
-  padding: 5px;
+  font-size: 0.7rem;
 }
 .email-error-icon {
   position: absolute;
@@ -488,11 +488,12 @@ details[open] {
 }
 .news-letter__btn {
   margin-left: 0.5rem;
-  padding: 0.5rem;
+  padding: 1rem 6rem 1rem 1rem;
   border-radius: 0.2rem;
   border: none;
   background-color: rgb(251, 88, 89);
   color: white;
+  text-align: center;
 }
 .news-letter__btn:hover {
   background-color: white;
